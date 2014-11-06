@@ -23,4 +23,5 @@ else:win32:INCLUDEPATH += ../QSgp4
 unix:!macx|win32: LIBS += -L$$PWD/../libs/linux_gplusplus -lqsgp4
 
 OTHER_FILES += \
-    SGP4-VER.TLE
+    SGP4-VER.TLE \
+    README.md
